@@ -14,12 +14,12 @@
 
 #define FALSE 0
 #define TRUE !FALSE
-// Set this macro to the value of TRUE to test Task 1
-#define SKIP_TESTING_TASK_1 FALSE
-// Set this macro to the value of TRUE to test Task 2
-#define SKIP_TESTING_TASK_2 FALSE
-// Set this macro to the value of TRUE to test Task 3
-#define SKIP_TESTING_TASK_3 FALSE
+// Set this macro to the value of FALSE to test Task 1
+#define SKIP_TESTING_TASK_1 TRUE
+// Set this macro to the value of FALSE to test Task 2
+#define SKIP_TESTING_TASK_2 TRUE
+// Set this macro to the value of FALSE to test Task 3
+#define SKIP_TESTING_TASK_3 TRUE
 
 #include <algorithm>
 #include <cassert>
@@ -44,6 +44,6 @@
 #include <utility>
 #include <vector>
 
-size_t Acker( size_t m, size_t n );
+// TODO: Declare Acker function below
 
 #endif

@@ -17,13 +17,12 @@
 using std::string;
 
 TEST_SUITE( "Task 1"
-                * doctest::description(
-                    "Declaring function" )
+                * doctest::description("Declaring function" )
                 * doctest::skip( SKIP_TESTING_TASK_1 ))
 {
     SCENARIO( "Task is ready for evaluation" )
     {
-        GIVEN("a function delclared to find")
+        GIVEN("a function declaration to find")
         {
             const char *search_string = "Acker";
             const char *filename = "csc232.h";

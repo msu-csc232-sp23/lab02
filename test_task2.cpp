@@ -14,21 +14,31 @@
 #include "csc232.h"
 #include "doctest.h"
 
-TEST_SUITE("Task 3"
-           * doctest::description("A suite of tests for verifying task 3.")
-           * doctest::skip( SKIP_TESTING_TASK_3 ) )
+TEST_SUITE("Task 2"
+           * doctest::description("A suite of tests for verifying task 2.")
+           * doctest::skip( SKIP_TESTING_TASK_2 ) )
 {
-    SCENARIO("Some scenario")
+#if !SKIP_TESTING_TASK_2
+    SCENARIO("Validating the base case of the Ackermann function")
     {
-        GIVEN( "some pre-conditions" )
+        GIVEN( "the base case of m = 0" )
         {
-            WHEN( "I check something" )
+            WHEN( "I compute the Ackermann function for a number of values of n" )
             {
-                THEN( "when I check " )
+                THEN( "I expect the result to be one greater than the value of n" )
                 {
-                    CHECK( true );
+                    size_t m{ 0 };
+                    size_t expected;
+                    size_t actual;
+                    for (size_t n{ 0 }; n < 10; ++n )
+                    {
+                        expected = n + 1;
+                        actual = Acker( m, n );
+                    }
+                    REQUIRE_EQ( expected, actual );
                 }
             }
         }
     }
+#endif
 }
