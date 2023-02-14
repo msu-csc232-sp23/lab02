@@ -8,23 +8,32 @@ This assignment is due...
 
 ## Background
 
-Cur historia studere?
+Chapter 2, Exercise 26
+
+Consider the following recursive definition
+
+![Acker](acker.png)
+
+This function, called _Ackermann's Function_, is of interest because it grows rapidly with respect to the sizes of _m_ and _n_. In this lab you will implement this function.
 
 ### Advanced Reading
 
-General > Files > Class Materials > Setting Up WSL for CSC232.pdf
+- General > Files > Class Materials > Setting Up WSL for CSC232.pdf
+- Chapter 2 Recursion: The Mirrors
 
 ## Objectives
 
-* Vae, xiphias!
-* Est bi-color planeta, cesaris.
-* Vae.
+Upon successful completion of this lab, the student has gained experience with
+
+- declaring functions
+- identifying and implementing base case(s)
+- identifying and implementing recursive case(s)
 
 ## Tasks
 
-1. Task 1
-2. Task 2
-3. Task 3
+1. Task 1 - Declare the function
+2. Task 2 - Implement the base case
+3. Task 3 - Implement recursive case
 
 ### Task 1
 
@@ -80,6 +89,6 @@ This assignment is worth **3 points**.
 
 ### Late Penalty
 
-* In the first 24-hour period following the due date, this lab will be penalized 0.6 point meaning the grading starts at 2.4 (out of 3 total possible) points.
-* In the second 24-hour period following the due date, this lab will be penalized 1.2 points meaning the grading starts at 1.8 (out of 3 total possible) points.
-* After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 3 possible points.
+- In the first 24-hour period following the due date, this lab will be penalized 0.6 point meaning the grading starts at 2.4 (out of 3 total possible) points.
+- In the second 24-hour period following the due date, this lab will be penalized 1.2 points meaning the grading starts at 1.8 (out of 3 total possible) points.
+- After 48 hours, the assignment will not be graded and thus earns no points, i.e., 0 out of 3 possible points.
