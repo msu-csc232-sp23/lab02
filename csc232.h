@@ -14,12 +14,12 @@
 
 #define FALSE 0
 #define TRUE !FALSE
-// Set this macro to the value of TRUE to test Task 1
-#define TEST_TASK_1 FALSE
-// Set this macro to the value of TRUE to test Task 2
-#define TEST_TASK_2 FALSE
-// Set this macro to the value of TRUE to test Task 3
-#define TEST_TASK_3 FALSE
+// Set this macro to the value of FALSE to test Task 1
+#define SKIP_TESTING_TASK_1 TRUE
+// Set this macro to the value of FALSE to test Task 2
+#define SKIP_TESTING_TASK_2 TRUE
+// Set this macro to the value of FALSE to test Task 3
+#define SKIP_TESTING_TASK_3 TRUE
 
 #include <algorithm>
 #include <cassert>
@@ -44,20 +44,6 @@
 #include <utility>
 #include <vector>
 
-/**
- * @brief Calculates the nth factorial number.
- * 
- * @param number the value whose factorial we seek
- * @return the factorial of the given number.
- */
-int factorial(int number);
-
-/**
- * @brief A demonstration for how an input file is read.
- *
- * @param file_name the file to opened for processing
- * @return true if the given file was successfully opened, false otherwise.
- */
-bool read_data(const std::string& file_name);
+// TODO: Declare Acker function below
 
 #endif
